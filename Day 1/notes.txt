@@ -1,0 +1,22 @@
+2024.01.08
+
+✅Day _1 - Overview of this course | Introduction to Artificial Intelligence & its applications | Creating your own Chatbot using DialogFlow
+
+
+Deep Learing ⊆ Machine Leaning ⊆ Artificial Intelligence
+
+
+Numerical Data - Machine Leaning and Deep Learnign
+Text/ Audio Dat - Machine Leaning / Natural Language Processing
+Image / Video Data - Computer Vison / Deep Learning
+
+
+7 Pillars of Building a Machine Learning Model
+----------------------------------------------
+1) Gathering Data
+2) Data Preprocessing(Data Cleaning)
+3) Choosing a Model / Concept
+4) Model Training
+5) Model Evaluation
+6) Parameter Tuning
+7) Model Prediction

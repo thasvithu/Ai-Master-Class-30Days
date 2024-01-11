@@ -1,0 +1,20 @@
+2024.01.10
+
+📸COMPUTER VISION📸
+
+✅Day _3 - Introduction to Computer Vision & its applications | Overview on CV libraries & installation | Basic programs on Computer vision
+
+Open CV
+-------
+
+*install open cv using pip
+pip install opencv-python
+pip install opencv-contrib-python
+
+
+Some CV Libraries
+-----------------
+pillow
+Scipy
+Scikit image
+NumPy

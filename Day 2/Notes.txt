@@ -1,0 +1,23 @@
+2024.01.09
+
+✅Day _2 - Introduction to Python | Exploring various python platforms | Installing & Working with Python IDLE
+
+python platforms
+----------------
+jupyter
+SpyderIDE
+PyCharm
+VS Code
+Python IDE
+
+
+*best python version to develop projects
+python 3.9.6
+
+
+*check python library version 
+libraryname.__version__
+
+
+*install pandas library using pip
+pip install pandas
