@@ -3,7 +3,7 @@
 ✅Day _2 - Introduction to Python | Exploring various python platforms | Installing & Working with Python IDLE
 
 python platforms
-----------------
+-----------------
 jupyter
 SpyderIDE
 PyCharm
@@ -20,4 +20,4 @@ libraryname.__version__
 
 
 *install pandas library using pip
-pip install pandas
+pip install pandas 
