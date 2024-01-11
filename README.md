@@ -1,6 +1,6 @@
 # Ai-Master-Class-30Days
 
-🤖ARTIFICIAL INTELLIGENCE🤖
+## 🤖ARTIFICIAL INTELLIGENCE🤖
 
 ✅Day _1 - Overview of this course | Introduction to Artificial Intelligence & its applications | Creating your own Chatbot using DialogFlow
 
