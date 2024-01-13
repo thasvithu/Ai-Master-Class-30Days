@@ -1,0 +1,63 @@
+2024.01.12
+
+✅ Day _5 - Advanced Face Detection and Tracking
+
+*Face detection is a computer technology being used in a variety of application that identifies human faces in digital images.
+
+*with face detection, you can get the information you need to perform tasks like embellishing selfies and portraits, or generating avatars from a user's photo because ML kit can perform face detetion in real time, you can use it in application like video chat or games that respond to the player's expression.
+
+
+
+Haar Cascade Frantal Face Algorithm
+----------------------------------
+*It is based on the Haar wavelet technique to analyze pixel in the image into squares by function.
+
+*This users machine learning techniques to get high degree of accuracy from what is called "features data".
+
+*This uses "integral image" concept to compute the "features" detected.
+
+*Haar Cascades use the Adaboost learning algorithm which selects a small number of important features from a large set to give an efficient result of classifiers.
+
+
+
+
+detectMultiScale
+----------------
+#faces = face_cascade.detectMultiScale(src, scalefactor, minNeighbors)
+
+faces = face_cascade.detectMultiScale(img, 1.3, 4)
+
+scalefactor : Parameter specifying how much the image size is reduced at each image scale
+
+minNeighbors : Parameter specifying how many neighbors each candidate rectangle should have to retain it.
+
+
+
+BLock Diagram - Workflow of Face Detection
+------------------------------------------
+Haar Cascade Frantal Face Algorithm
+                 |
+                 |
+                 ↓
+        Initializing Camera
+                 |
+                 |
+                 ↓
+      Reading Frame from Camera
+                 |
+                 |
+                 ↓
+Converting Color image into Grayscale image
+                 |
+                 |
+                 ↓
+Obtaining Face coordinates by passing algorithm
+                 |
+                 |
+                 ↓
+Drawing Rectangle on the Face Coordinates
+                 |
+                 |
+                 ↓
+	Diplay the output
+
