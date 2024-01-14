@@ -1,0 +1,27 @@
+2024.01.13
+
+✅ Day _6 - Object Tracking based on Color with OpenCV
+
+pip install puautogui
+
+HSV Value
+---------
+hsv = cv2.cvtColor(blurred, cv2.COLOR_BGR2HSV)
+
+
+Minimum Enclosing Circle
+-------------------------
+((x,y), radius) = cv2.minEnclosingCircle(countourArea)
+
+
+Moments to find center of the Area
+-----------------------------------
+M = cv2.moments(counterarea)
+
+
+Drawing Circle
+--------------
+cv2.circle(frame, (int(X), int(y)), int(radius), (0,255,255),2)
+
+Find the center point
+cv2.circle(frame,center,5(0,0,255), -1)
